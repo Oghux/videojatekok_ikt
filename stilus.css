@@ -50,3 +50,17 @@ p {
     font-size: 15px;
     font-family: "Rockwell", serif;
 }
+
+.tarolo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .tarolo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
